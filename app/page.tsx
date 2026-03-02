@@ -1,3 +1,4 @@
+import Header from "@/components/common/header";
 import Sidebar from "@/components/common/sidebar";
 import Image from "next/image";
 
@@ -59,6 +60,7 @@ export default function Home() {
           >
             Documentation
           </a>
+          <Header/>
           <Sidebar/>
         </div>
       </main>

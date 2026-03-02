@@ -30,7 +30,7 @@ const Sidebar = ()=> {
         <aside className={`inset-y-0 left-0 z-50 h-screen bg-white border-r border-gray-200 flex flex-col fixed transition-all duration-300 ease-in-out shadow-2xl md:shadow-none 
                 ${isSidebarOpen ? 'translate-x-0 w-64' : '-translate-x-full md:translate-x-0 md:w-20'}`}>
                     
-            <div className="p-6 flex items-center border-b justify-center relative min-h-22 shrink-0">
+            <div className="p-6 flex items-center border-b justify-center relative min-h-16 shrink-0">
                 <div className={`flex items-center gap-3 transition-all duration-300 absolute left-6 ${isSidebarOpen ? 'opacity-100 translate-x-0 delay-100' : '-translate-x-0 pointer-events-none hidden md:flex'}`}>
                 <div className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center shrink-0">
                     <CircleDollarSign className="text-white w-5 h-5" />
