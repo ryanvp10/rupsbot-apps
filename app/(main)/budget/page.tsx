@@ -1,8 +1,8 @@
-export default function ExpensesPage() {
+export default function BudgetPage() {
   return (
     <div className="space-y-4">
-      <h1 className="text-2xl font-bold">Expenses Tracker</h1>
-      <p className="text-gray-600">Daftar pengeluaran Anda tercatat di sini.</p>
+      <h1 className="text-2xl font-bold">Budget Tracker</h1>
+      <p className="text-gray-600">Kelola anggaran Anda di sini.</p>
       <table className="w-full bg-white rounded-lg overflow-hidden shadow">
         <thead className="bg-gray-100">
           <tr>

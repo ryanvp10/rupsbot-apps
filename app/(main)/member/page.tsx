@@ -1,13 +1,11 @@
-export default function DashboardPage() {
+export default function MemberPage() {
   return (
     <div className="space-y-4">
-      <h1 className="text-2xl font-bold">Dashboard Overview</h1>
-      <p className="text-gray-600">Selamat datang di panel utama aplikasi Anda.</p>
-      <div className="grid grid-cols-3 gap-4">
-        <div className="p-4 bg-white shadow rounded-lg border">Statistik 1</div>
-        <div className="p-4 bg-white shadow rounded-lg border">Statistik 2</div>
-        <div className="p-4 bg-white shadow rounded-lg border">Statistik 3</div>
-      </div>
+      <h1 className="text-2xl font-bold">Member Management</h1>
+      <p className="text-gray-600">Kelola anggota atau pengguna sistem.</p>
+      <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+        Tambah Member +
+      </button>
     </div>
   );
 }

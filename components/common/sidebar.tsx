@@ -21,8 +21,8 @@ const Sidebar = ()=> {
         {label:'Dashboard', icon:LayoutDashboard, path:'/dashboard'},
         {label:'Expenses', icon:Receipt, path:'/expenses'},
         {label:'Budget', icon:PiggyBank, path:'/budget'},
-        {label:'Members', icon:Users, path:'/members'},
-        {label:'Settings', icon:Settings, path:'/settings'}
+        {label:'Members', icon:Users, path:'/member'},
+        {label:'Settings', icon:Settings, path:'/setting'}
     ];
 
     return (
